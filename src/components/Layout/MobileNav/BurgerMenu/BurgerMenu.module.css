@@ -1,0 +1,46 @@
+.BurgerMenu {
+   padding: 10px;
+}
+
+.Burger {
+    width: 18px;
+    height: 2.5px;
+    background-color: var(--font-color);
+    margin-bottom: 5px;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+    
+}
+
+
+@media (min-width: 992px) {
+    .BurgerMenu {
+        padding: 10px;
+        display: none;
+     }
+     
+     .Burger {
+         width: 10px;
+         height: 3px;
+         background-color: var(--font-color);
+         margin-bottom: 5px;
+     }
+}
+
+
+@media (min-width: 1200px) {
+
+ }
+
+
+@media (min-width: 1400px) {
+
+}

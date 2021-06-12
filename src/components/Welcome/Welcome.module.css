@@ -1,0 +1,44 @@
+.Welcome {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.Container {
+    width: 90%;
+    margin: auto;
+}
+
+.Leaf {
+    display: block;
+    margin: 0.7rem auto;
+    width: 50px;
+    height: 40px;
+
+}
+
+.MT-2 {
+    margin-top: 2rem;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    .Container {
+        width: 50%;
+    }
+    
+    .MT-2 {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

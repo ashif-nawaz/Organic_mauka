@@ -1,0 +1,138 @@
+.Footer {
+  height: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: url("/src/assets/footer.png") no-repeat center center;
+  background-size: cover;
+  margin-top: 3rem;
+}
+
+.Inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.FooterLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FooterLinks,
+.Social {
+  list-style: none;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-top: 8px;
+}
+
+.SocialItem svg {
+  width: 33px;
+  height: 33px;
+  fill: var(--font-color);
+  border: 1px solid transparent;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.Col {
+  width: 100%;
+}
+
+.FooterDesc {
+  font-size: 0.6rem;
+  margin-bottom: 1rem;
+  color: lightgray;
+}
+
+.FooterTag {
+  position: relative;
+  font-size: 0.65rem;
+  color: white;
+  font-weight: 600;
+  padding: 8px 0;
+  margin: 0.5rem 0;
+}
+
+.FooterTag svg {
+  width: 14.5px;
+  height: 14.5px;
+  margin-right: 3px;
+  fill: white;
+}
+
+.Copyright::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid var(--primary-color);
+  width: 10%;
+  top: 0;
+  left: 0;
+}
+
+.LineBelow {
+  margin-bottom: 1rem;
+}
+
+.LineBelow::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid var(--primary-color);
+  width: 10%;
+  top: 100%;
+  left: 0;
+}
+
+.FooterLogo {
+  height: 40px;
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.FooterLogo img {
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Inner {
+    flex-direction: row;
+    height: 70%;
+  }
+
+  .FooterLinks {
+      display: block;
+  }
+
+  .Col {
+    width: 28%;
+  }
+
+  .FooterTag {
+    margin: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

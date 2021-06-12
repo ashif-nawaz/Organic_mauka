@@ -1,0 +1,47 @@
+.NewsLetter {
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.Container {
+  width: 80%;
+  margin: auto;
+}
+
+.GiantLeaf {
+  position: absolute;
+  width: 700px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  transform: translate(-85%, -65%);
+}
+
+.GiantLeaf img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Container {
+    width: 50%;
+  }
+
+  .GiantLeaf {
+    transform: translate(-75%, -65%);
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

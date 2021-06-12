@@ -1,0 +1,48 @@
+.NavItem {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.NavItem a {
+    padding: 4px 5px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--font-color);
+    border-bottom: 3px solid transparent;
+}
+
+.NavItem a:hover {
+    color: var(--font-dark-color);
+}
+
+.Contact a {
+    padding: 4px 1.5rem !important;
+    display: block;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    transition: all 0.25s linear;
+}
+
+.Contact a:hover {
+    background-color : var(--primary-color);
+    color: whitesmoke;
+}
+
+.Active a {
+    border-bottom-color: var(--primary-color);
+}
+
+.NavFooter {
+    justify-content: flex-start;
+    padding: 4px 0;
+}
+
+.NavFooter a {
+    padding: 0;
+    color: lightgray;
+    font-size: 0.6rem;
+}

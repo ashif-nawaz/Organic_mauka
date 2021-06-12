@@ -1,0 +1,25 @@
+.Switcher {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Switcher span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 7px;
+  border-radius: 50%;
+  background-color: var(--font-color);
+}
+
+.Switcher .Active {
+  background-color: var(--primary-color) !important;
+}
+
+.Bordered span {
+   border: 1px solid var(--primary-color);
+   background-color: white;
+}
+
+

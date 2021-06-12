@@ -1,0 +1,9 @@
+.Desc {
+    text-align: center;
+    margin: 0.7rem 0;
+}
+
+.Desc {
+    font-size: 0.6rem;
+    color: var(--font-color);
+}

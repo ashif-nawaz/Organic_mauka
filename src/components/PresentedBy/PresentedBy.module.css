@@ -1,0 +1,27 @@
+.PresentedBy {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.Container {
+  width: 80%;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

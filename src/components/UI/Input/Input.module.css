@@ -1,0 +1,56 @@
+.Input {
+  width: 100%;
+}
+
+.Input input {
+  padding: 8px;
+  width: 65%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+}
+
+.Input input:focus {
+  border-bottom-color: var(--font-color);
+}
+
+.Input button {
+  width: 34%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.Input button:hover {
+  background-color: var(--primary-dark-color);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Input {
+    width: 80%;
+  }
+
+  .Input input {
+    width: 70%;
+  }
+
+  .Input button {
+    width: 29%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

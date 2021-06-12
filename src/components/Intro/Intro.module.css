@@ -1,0 +1,110 @@
+.Intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 23rem;
+  margin: auto;
+  margin-top: 3.5rem;
+  padding: 0.5rem;
+}
+
+.Col {
+  padding: 0 5px;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.Col:last-of-type {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.Tagline {
+  font-size: 0.9rem;
+  color: var(--font-color);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.Heading {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.Desc {
+  font-size: 0.7rem;
+  color: var(--font-color);
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.Rose {
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  transform: translate(-50%, 0);
+  width: 200px;
+  height: 230px;
+}
+
+.Logo {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 2px solid var(--primary-color);
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+   
+}
+
+@media (min-width: 992px) {
+  .Intro {
+    flex-direction: row;
+    width: 80%;
+    height: 15rem;
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .Col {
+    width: 30%;
+  }
+
+  .Tagline {
+    text-align: left;
+  }
+
+  .Heading {
+    text-align: left;
+  }
+
+  .Desc {
+    text-align: left;
+  }
+
+  .Rose {
+    height: 350px;
+    left: 25%;
+  }
+
+  .Logo {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

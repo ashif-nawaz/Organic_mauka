@@ -1,0 +1,30 @@
+.CompanyItem {
+    width: 100px;
+    height: 130px;
+    margin-bottom: 2rem;
+}
+
+.CompanyItem img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    .CompanyItem {
+        margin-bottom: unset;
+    }
+
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,52 @@
+.Link {
+  text-decoration: none;
+  padding: 5px 30px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.BC {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  display: block;
+  font-size: 0.7rem;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.BC:hover {
+  background-color: var(--primary-dark-color);
+  border-color: var(--primary-dark-color);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Link {
+    text-decoration: none;
+    padding: 5px 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+  }
+
+  .BC {
+    display: inline-block;
+    width: unset;
+  }
+
+  .BC:hover {
+    background-color: var(--primary-dark-color);
+    border-color: var(--primary-dark-color);
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
